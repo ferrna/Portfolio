@@ -23,6 +23,9 @@ module.exports = {
       animation: {
         wave: "wave 2.5s infinite",
       },
+      dropShadow: {
+        "3xl": "drop-shadow(4px 4px 3px #000000)",
+      },
     },
   },
   plugins: [],

@@ -1,6 +1,9 @@
 import { useEffect, useState } from "react";
+import AboutMe from "./components/AboutMe";
+import ContactForm from "./components/ContactForm";
 import HeroSection from "./components/HeroSection";
-import MenuBar from "./components/MenuBar";
+import MenuBar from "./components/MenuBar/MenuBar";
+import Skills from "./components/Skills";
 import Works from "./components/Works";
 
 function App() {
@@ -26,33 +29,24 @@ function App() {
     }
   }, [theme]);
 
-  /* Scroll dataset for html tag scroll value */
-  const handleDataSet = () => {
-    if (window.scrollY > 250) {
-      document.documentElement.dataset.scroll = 100;
-    } else {
-      document.documentElement.dataset.scroll = 0;
-    }
-  };
-  useEffect(() => {
-    document.addEventListener("scroll", handleDataSet);
-    return document.removeEventListener("scroll", handleDataSet);
-  }, []);
-
   return (
     <>
       <button
         type="button"
         onClick={handleThemeSwitch}
-        className="fixed z-10 right-2 top-2 bg-blue-500 text-lg p-1 rounded-md"
+        className="fixed z-30 right-2 top-2 bg-blue-500 text-lg p-1 rounded-md"
+        title={theme === "dark" ? "Light mode" : "Dark mode"}
       >
-        {theme === "dark" ? "luna" : "sol"}
+        {theme === "dark" ? "🪔" : "🕶"}
       </button>
-      <div className="font-inter bg-slate-50 dark:bg-slate-900  min-h-screen scroll-smooth">
+      <div className="font-inter bg-slate-50 dark:bg-slate-900 min-h-screen">
+        <MenuBar />
         <div className="max-w-4xl px-6 mx-auto">
-          <MenuBar />
           <HeroSection />
+          <AboutMe />
+          <Skills />
           <Works />
+          <ContactForm />
         </div>
       </div>
     </>

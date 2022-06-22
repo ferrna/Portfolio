@@ -1,28 +1,34 @@
 export default [
   {
-    title: "TechHub-Blog",
-    imgUrl: "https://raw.githubusercontent.com/ShaifArfan/techHub-blog/main/banner.png",
-    tech: ["React JS", "Gatsby JS", "Sanity.io"],
-    workUrl: "https://github.com/ShaifArfan/techHub-blog",
+    title: "Alkemy Wallet",
+    description:
+      "Wallet for keeping track of your finances developed as part of Alkemy's acceleration.",
+    imgUrl: "https://raw.githubusercontent.com/ferrna/FerrnA/main/alkemy.png",
+    tech: ["React JS", "Redux", "Node js", "Sequelize", "PostgreSQL", "Passport"],
+    workUrl: "https://github.com/ferrna/AlkemyFSChallenge",
+    liveUrl: "",
   },
   {
-    title: "Shaif'f Cuisine",
-    imgUrl:
-      "https://raw.githubusercontent.com/ShaifArfan/shaif-s-cuisine/main/readmeImg/banner.png",
-    tech: ["HTML", "CSS", "Netlify"],
-    workUrl: "https://github.com/ShaifArfan/shaif-s-cuisine",
-  },
-  {
-    title: "Ayan's Portfolio Website",
-    imgUrl:
-      "https://raw.githubusercontent.com/ShaifArfan/AYANs-portfolio/main/ReadMeImages/ReadMeBanner.png",
-    tech: ["React JS", "CSS"],
-    workUrl: "https://github.com/ShaifArfan/AYANs-portfolio",
+    title: "E-kommerce",
+    description:
+      "It is an e-commerce carried out as a first great mission, in which my colleagues and I combined all the technologies learned in the #SoyHenry bootcamp.",
+    imgUrl: "https://raw.githubusercontent.com/ferrna/FerrnA/main/ecommercecopia.png",
+    tech: ["React JS", "Styled components", "Node js", "Express", "PostgreSQL", "Passport", "JWT"],
+    workUrl: "https://github.com/edarcode/pf-ecommerce",
+    liveUrl: "https://pf-ecommerce.vercel.app/",
   },
   {
     title: "Artistic",
     imgUrl: "https://raw.githubusercontent.com/ShaifArfan/artistic/main/readmeImg/banner.png",
-    tech: ["React JS", "CSS"],
-    workUrl: "https://github.com/ShaifArfan/artistic",
+    tech: ["React JS", "Redux", "Node js", "Express", "Sequelize", "PostgreSQL", "CSS"],
+    workUrl: "https://github.com/ferrna/PokeApp-Proyecto-individual-soyHenry",
+    liveUrl: "",
+  },
+  {
+    title: "Forecapp",
+    imgUrl: "https://raw.githubusercontent.com/ferrna/FerrnA/main/weatherapp2.png",
+    tech: ["React", "Redux", "Axios"],
+    workUrl: "https://github.com/ferrna/Weatherapp",
+    liveUrl: "https://weatherapp-plum.vercel.app/",
   },
 ];

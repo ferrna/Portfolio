@@ -5,8 +5,8 @@ import WorkItem from "./WorkItem";
 
 function Works() {
   return (
-    <div className="py-12">
-      <SectionTitle id="works">Projects</SectionTitle>
+    <div id="works" className="py-16">
+      <SectionTitle>Projects</SectionTitle>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
         {works.map((work) => (
           <WorkItem
@@ -15,6 +15,8 @@ function Works() {
             title={work.title}
             tech={work.tech}
             workUrl={work.workUrl}
+            liveUrl={work.liveUrl}
+            description={work.description}
           />
         ))}
       </div>
