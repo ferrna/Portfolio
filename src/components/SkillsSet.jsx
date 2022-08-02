@@ -12,6 +12,7 @@ import {
   SiPostman,
   SiNextdotjs,
   SiTypescript,
+  SiMysql
 } from "react-icons/si";
 
 function IconAndName({ name, Icon }) {
@@ -60,6 +61,7 @@ export function SkillsSetBack() {
         <IconAndName name="Express" Icon={SiExpress} />
         <IconAndName name="Sequelize" Icon={SiSequelize} />
         <IconAndName name="PostgreSQL" Icon={SiPostgresql} />
+        <IconAndName name="MySQL" Icon={SiMysql} />
       </div>
     </div>
   );
@@ -70,8 +72,8 @@ export function SkillsSetTools() {
       <SkillSetTitle title="Tools" />
       <div className="grid grid-cols-3 md:grid-cols-1">
         <IconAndName name="Git" Icon={FaGitAlt} />
-        <IconAndName name="NPM" Icon={FaNpm} />
         <IconAndName name="Postman" Icon={SiPostman} />
+        <IconAndName name="NPM" Icon={FaNpm} />
       </div>
     </div>
   );

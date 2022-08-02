@@ -3,7 +3,7 @@ import Typewriter from "typewriter-effect";
 
 function ContactForm() {
   return (
-    <div id="contact">
+    <div id="contact" className="  mx-auto max-w-4xl px-6">
       <div className=" bg-slate-300 rounded-md px-5 py-3 mb-5 text-lg">
         <Typewriter
           onInit={(typewriter) => {

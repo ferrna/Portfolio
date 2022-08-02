@@ -1,27 +1,20 @@
 import React from "react";
-import myImg from "../images/hero.jpg";
 import SectionTitle from "./SectionTitle";
 
 function AboutMe() {
   return (
     <div
       id="about"
-      className="flex flex-col md:flex-row items-center justify-center gap-10 md:gap-20 py-12"
+      className=" bg-indigo-200 flex flex-col md:flex-row items-center justify-center py-12 px-2"
     >
-      <img src={myImg} alt="Fernando" className="w-full md:w-6/12 rounded-lg object-cover" />
-      <div className="w-full md:w-6/12">
+      <div className="w-full md:w-8/12   max-w-4xl px-6">
         <SectionTitle>About Me</SectionTitle>
-        <p className="text-md text-gray-600 dark:text-gray-300">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores veniam dolor
-          consectetur pariatur explicabo, iure nulla. Dolor debitis, natus cum ad, fugiat excepturi
-          minima culpa atque modi accusantium vel voluptatem?
+        <p className="text-2xl text-indigo-600 dark:text-indigo-800 font-semibold">
+          Soy desarrollador web Full Stack y apasionado del Front End, amante de los diseños simples y modernos. Soy una persona autodidacta y siempre que puedo intento aprender nuevas tecnologías.
+          <br />
+          <br />
+          Actualmente me encuentro en aceleración Alkemy en donde realizamos un projecto para una ONG. Estoy buscando formar parte de un proyecto que me permita dejar mi marca en la web y me haga crecer profesionalmente.
         </p>
-        <a
-          href="mailto:arriondovfernando@gmail.com"
-          className="block mt-3 text-md md:text-lg text-gray-700 dark:text-gray-300 underline decoration-1 hover:text-indigo-500 dark:hover:text-indigo-500"
-        >
-          arriondovfernando@gmail.com
-        </a>
       </div>
     </div>
   );

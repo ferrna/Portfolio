@@ -5,7 +5,7 @@ import WorkItem from "./WorkItem";
 
 function Works() {
   return (
-    <div id="works" className="py-16">
+    <div id="works" className="py-16  mx-auto max-w-4xl px-6">
       <SectionTitle>Projects</SectionTitle>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
         {works.map((work) => (

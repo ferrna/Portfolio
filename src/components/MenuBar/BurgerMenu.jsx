@@ -14,7 +14,7 @@ function BurgerMenu() {
   };
 
   return (
-    <div className="md:hidden">
+    <div className="md:hidden z-30">
       <Menu
         id="burger-menu"
         right

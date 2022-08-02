@@ -4,7 +4,7 @@ import { SkillsSetFront, SkillsSetBack, SkillsSetTools } from "./SkillsSet";
 
 function Skills() {
   return (
-    <section id="skills" className="mb-20 pt-4">
+    <section id="skills" className="mb-20 pt-4   mx-auto max-w-4xl px-6">
       <div className="flex justify-center mt-8">
         <SectionTitle>My skills</SectionTitle>
       </div>

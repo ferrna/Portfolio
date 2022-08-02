@@ -34,14 +34,14 @@ function App() {
       <button
         type="button"
         onClick={handleThemeSwitch}
-        className="fixed z-30 right-2 top-2 bg-blue-500 text-lg p-1 rounded-md"
+        className="fixed z-40 right-2 top-2 bg-blue-500 text-lg p-1 rounded-md"
         title={theme === "dark" ? "Light mode" : "Dark mode"}
       >
         {theme === "dark" ? "🪔" : "🕶"}
       </button>
       <div className="font-inter bg-slate-50 dark:bg-slate-900 min-h-screen">
         <MenuBar />
-        <div className="max-w-4xl px-6 mx-auto">
+        <div className="mx-auto">
           <HeroSection />
           <AboutMe />
           <Skills />
