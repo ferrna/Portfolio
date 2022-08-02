@@ -12,9 +12,12 @@ function AboutMe() {
       <div className="w-full md:w-6/12">
         <SectionTitle>About Me</SectionTitle>
         <p className="text-md text-gray-600 dark:text-gray-300">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores veniam dolor
-          consectetur pariatur explicabo, iure nulla. Dolor debitis, natus cum ad, fugiat excepturi
-          minima culpa atque modi accusantium vel voluptatem?
+          I have been studying software development for a year, learning the stack PERN and
+          continuoslly improving myself technically and as a person. I enjoy going through a
+          development proccess as much as i love any of my hobbies. There's a time where we all find
+          what we are looking for and I believe software IT is a world where i can leave my mark.
+          I'm a graduated from soyHenry, an autidadictic student and currently accelerating in
+          Alkemy. I love to play sports, games and music instruments.
         </p>
         <a
           href="mailto:arriondovfernando@gmail.com"

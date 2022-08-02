@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import AboutMe from "./components/AboutMe";
 import ContactForm from "./components/ContactForm";
+import Footer from "./components/Footer";
 import HeroSection from "./components/HeroSection";
 import MenuBar from "./components/MenuBar/MenuBar";
 import Skills from "./components/Skills";
@@ -15,6 +16,11 @@ function App() {
     } else {
       setTheme("light");
     }
+  }, []);
+
+  // using dark mode as default
+  useEffect(() => {
+    setTheme("dark");
   }, []);
 
   const handleThemeSwitch = () => {
@@ -47,6 +53,7 @@ function App() {
           <Skills />
           <Works />
           <ContactForm />
+          <Footer />
         </div>
       </div>
     </>

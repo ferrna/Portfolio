@@ -12,6 +12,7 @@ import {
   SiPostman,
   SiNextdotjs,
   SiTypescript,
+  SiMysql
 } from "react-icons/si";
 
 function IconAndName({ name, Icon }) {
@@ -60,6 +61,7 @@ export function SkillsSetBack() {
         <IconAndName name="Express" Icon={SiExpress} />
         <IconAndName name="Sequelize" Icon={SiSequelize} />
         <IconAndName name="PostgreSQL" Icon={SiPostgresql} />
+        <IconAndName name="MySQL" Icon={SiMysql} />
       </div>
     </div>
   );
