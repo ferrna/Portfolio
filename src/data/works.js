@@ -33,10 +33,17 @@ export default [
     liveUrl: "",
   },
   {
-    title: "Forecapp",
+    title: "Wheater app",
     imgUrl: "https://raw.githubusercontent.com/ferrna/FerrnA/main/weatherapp2.png",
-    tech: ["React", "Redux", "Axios"],
+    tech: ["React JS", "Redux", "Axios"],
     workUrl: "https://github.com/ferrna/Weatherapp",
     liveUrl: "https://weatherapp-plum.vercel.app/",
+  },
+  {
+    title: "Poke Api",
+    imgUrl: "https://raw.githubusercontent.com/ferrna/FerrnA/main/pokeapi-home.png",
+    tech: ["React JS", "Redux", "CSS", "Node js", "Express", "Sequelize", "PostgreSQL"],
+    workUrl: "https://github.com/ferrna/PokeApp-Proyecto-individual-soyHenry",
+    liveUrl: "https://pokeapi-fer.vercel.app/",
   },
 ];
